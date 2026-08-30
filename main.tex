@@ -1,0 +1,579 @@
+% !TEX program = xelatex
+\documentclass[10pt,twoside,openany]{book}
+\usepackage{geometry}
+\geometry{paperwidth=5in,paperheight=8in,top=0.7in,bottom=0.7in,inner=0.5in,outer=0.5in,headheight=10pt,headsep=20pt,footskip=25.2pt}
+\addtolength{\textheight}{-12pt}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage[unicode=true,hidelinks]{hyperref}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont[Path=fonts/]{SourceHanSerifCN-Regular.otf}
+\setCJKmainfont[Path=fonts/]{SourceHanSerifCN-Regular.otf}
+\setsansfont[Path=fonts/]{SourceHanSansCN-Medium.otf}
+\setCJKsansfont[Path=fonts/]{SourceHanSansCN-Medium.otf}
+\xeCJKsetup{PunctStyle=plain}
+\definecolor{PrimaryInk}{HTML}{161618}
+\definecolor{SecondaryInk}{HTML}{5C5C62}
+\color{PrimaryInk}
+\hypersetup{pdftitle={我的女友 CPA},pdfauthor={Aaron Cheung},pdfsubject={5 x 8 inch XeLaTeX edition}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\topskip}{10pt}
+\renewcommand{\baselinestretch}{1}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\brokenpenalty=10000
+\raggedbottom
+\fancypagestyle{bodyrunning}{
+  \fancyhf{}
+  \fancyhead[LO]{\sffamily\fontsize{8}{10}\selectfont\color{SecondaryInk}我的女友 CPA}
+  \fancyhead[RO]{\sffamily\fontsize{8}{10}\selectfont\color{SecondaryInk}\thepage}
+  \fancyhead[LE]{\sffamily\fontsize{8}{10}\selectfont\color{SecondaryInk}\thepage}
+  \fancyhead[RE]{\sffamily\fontsize{8}{10}\selectfont\color{SecondaryInk}我的女友 CPA}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+\fancypagestyle{bodyopening}{
+  \fancyhf{}
+  \fancyfoot[C]{\sffamily\fontsize{8}{10}\selectfont\color{SecondaryInk}\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+\newcommand{\BodySingleLeading}{17.3076923}
+\newcommand{\StoryParagraph}[2]{%
+  \begingroup\rmfamily\setstretch{1.3}%
+  \fontsize{9.5}{\BodySingleLeading}\selectfont
+  #2\par\vspace{#1pt}\endgroup
+}
+\newcommand{\NarrativeBreak}{%
+  \par\penalty10000\vspace{37.4pt}
+  \noindent\hbox to \textwidth{\hfil\sffamily\setstretch{1.3}\fontsize{9.5}{\BodySingleLeading}\selectfont---\hfil}\par
+  \vspace{31.4pt}\penalty10000
+}
+\begin{document}
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+{\sffamily\fontsize{28}{34}\selectfont 我的女友 CPA\par}
+\vspace{1.5em}
+{\rmfamily\fontsize{12}{20}\selectfont 一个 CPA 考生的怨恨文\par}
+\vspace{5em}
+{\sffamily\fontsize{9}{14}\selectfont 5 × 8 英寸排版版\par}
+\end{center}
+\vspace*{\fill}
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\pagestyle{bodyrunning}
+\thispagestyle{bodyopening}
+\vspace*{70.817pt}
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{1}}
+\StoryParagraph{3}{一张 CPA 准考证的重量，四点几克。}
+\StoryParagraph{3}{六本教材的重量，七点八公斤。}
+\StoryParagraph{3}{我这些年给 CPA 的东西，远不止这些。}
+\StoryParagraph{3}{时间，睡眠，头发，周末，年假，还有一些我已经记不清的东西。}
+\StoryParagraph{3}{它给我的，是六个科目。}
+\StoryParagraph{3}{会计、审计、财管、税法、经济法、战略。}
+\StoryParagraph{3}{第一次看到这六个名字的时候，我觉得没有什么。}
+\StoryParagraph{3}{六个而已。}
+\StoryParagraph{3}{后来我才知道，一个人这一生，最好不要轻易说“六个而已”。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{2}}
+\StoryParagraph{3}{最开始是会计。}
+\StoryParagraph{3}{CPA 对我说，先学会计吧，会计是基础。}
+\StoryParagraph{3}{我说好。}
+\StoryParagraph{3}{于是我学长期股权投资。}
+\StoryParagraph{3}{学金融工具。}
+\StoryParagraph{3}{学企业合并。}
+\StoryParagraph{3}{学合并财务报表。}
+\StoryParagraph{3}{学到凌晨一点，我第一次产生了一个很奇怪的疑问：}
+\StoryParagraph{3}{为什么母公司已经控制了子公司，还要每天调整它。}
+\StoryParagraph{3}{后来我明白了。}
+\StoryParagraph{3}{有些关系就是这样。}
+\StoryParagraph{3}{名义上已经控制。}
+\StoryParagraph{3}{实际上每天都要重新计算。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{3}}
+\StoryParagraph{3}{我第一次听老师说：}
+\StoryParagraph{3}{“这道题很简单。”}
+\StoryParagraph{3}{我信了。}
+\StoryParagraph{3}{后来我发现，CPA 里老师说的“简单”，和普通人理解的简单不是一个意思。}
+\StoryParagraph{3}{普通人的简单，是一加一等于二。}
+\StoryParagraph{3}{CPA 的简单，是：}
+\StoryParagraph{3}{先确认递延所得税。}
+\StoryParagraph{3}{再考虑内部交易抵销。}
+\StoryParagraph{3}{然后调整少数股东损益。}
+\StoryParagraph{3}{最后别忘了逆流交易。}
+\StoryParagraph{3}{老师在屏幕里说：}
+\StoryParagraph{3}{“这里大家应该都没问题吧。”}
+\StoryParagraph{3}{我看了一眼进度条。}
+\StoryParagraph{3}{凌晨一点四十七分。}
+\StoryParagraph{3}{我说：}
+\StoryParagraph{3}{好。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{4}}
+\StoryParagraph{3}{CPA 很喜欢问我一个问题：}
+\StoryParagraph{3}{“下列说法正确的是？”}
+\StoryParagraph{3}{它一般给四个选项。}
+\StoryParagraph{3}{A 看起来对。}
+\StoryParagraph{3}{B 也有道理。}
+\StoryParagraph{3}{C 我在讲义上见过。}
+\StoryParagraph{3}{D 每个字我都认识。}
+\StoryParagraph{3}{我选 A。}
+\StoryParagraph{3}{答案是 C。}
+\StoryParagraph{3}{我去看解析。}
+\StoryParagraph{3}{解析第一句话：}
+\StoryParagraph{3}{“A 选项错误。”}
+\StoryParagraph{3}{没有解释我为什么会选 A。}
+\StoryParagraph{3}{它根本不关心。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{5}}
+\StoryParagraph{3}{后来是审计。}
+\StoryParagraph{3}{CPA 跟我说：}
+\StoryParagraph{3}{审计不难，理解逻辑就行。}
+\StoryParagraph{3}{我又信了。}
+\StoryParagraph{3}{我学认定。}
+\StoryParagraph{3}{存在。}
+\StoryParagraph{3}{完整性。}
+\StoryParagraph{3}{准确性、计价和分摊。}
+\StoryParagraph{3}{权利和义务。}
+\StoryParagraph{3}{分类。}
+\StoryParagraph{3}{列报。}
+\StoryParagraph{3}{有一天我盯着“存在”和“完整性”看了二十分钟。}
+\StoryParagraph{3}{CPA 问：}
+\StoryParagraph{3}{存货监盘主要获取什么认定的证据？}
+\StoryParagraph{3}{我突然不知道这个世界上的存货到底存不存在。}
+\StoryParagraph{3}{我甚至开始怀疑我自己是否存在。}
+\StoryParagraph{3}{但完整性很好证明。}
+\StoryParagraph{3}{我的痛苦很完整。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{6}}
+\StoryParagraph{3}{财管来的时候，我已经不是以前的我了。}
+\StoryParagraph{3}{CPA 说：}
+\StoryParagraph{3}{财管主要是计算。}
+\StoryParagraph{3}{我想，计算好。}
+\StoryParagraph{3}{数字不会骗人。}
+\StoryParagraph{3}{后来我遇到了：}
+\StoryParagraph{3}{实体现金流。}
+\StoryParagraph{3}{股权现金流。}
+\StoryParagraph{3}{加权平均资本成本。}
+\StoryParagraph{3}{β 系数。}
+\StoryParagraph{3}{经营杠杆。}
+\StoryParagraph{3}{财务杠杆。}
+\StoryParagraph{3}{联合杠杆。}
+\StoryParagraph{3}{期权价值。}
+\StoryParagraph{3}{看涨期权。}
+\StoryParagraph{3}{看跌期权。}
+\StoryParagraph{3}{二叉树。}
+\StoryParagraph{3}{我发现数字确实不会骗人。}
+\StoryParagraph{3}{公式会。}
+\StoryParagraph{3}{同一个字母，在不同章节，可以代表完全不同的东西。}
+\StoryParagraph{3}{我问 CPA：}
+\StoryParagraph{3}{为什么？}
+\StoryParagraph{3}{CPA 没回答。}
+\StoryParagraph{3}{它给了我一道多选题。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{7}}
+\StoryParagraph{3}{税法是最特别的一个。}
+\StoryParagraph{3}{税法每天都在变。}
+\StoryParagraph{3}{我昨天背：}
+\StoryParagraph{3}{这个可以扣。}
+\StoryParagraph{3}{今天题目说：}
+\StoryParagraph{3}{不能扣。}
+\StoryParagraph{3}{我问为什么。}
+\StoryParagraph{3}{答案说：}
+\StoryParagraph{3}{“注意，此处有特殊规定。”}
+\StoryParagraph{3}{后来我越来越害怕“特殊规定”四个字。}
+\StoryParagraph{3}{普通规定我已经背不完了。}
+\StoryParagraph{3}{特殊规定还在不断出生。}
+\StoryParagraph{3}{增值税有特殊规定。}
+\StoryParagraph{3}{企业所得税有特殊规定。}
+\StoryParagraph{3}{个人所得税有特殊规定。}
+\StoryParagraph{3}{土地增值税尤其喜欢特殊规定。}
+\StoryParagraph{3}{有一次我做完一道综合题，对了前六问。}
+\StoryParagraph{3}{第七问错了。}
+\StoryParagraph{3}{我看解析。}
+\StoryParagraph{3}{解析说：}
+\StoryParagraph{3}{“本题还应考虑印花税。”}
+\StoryParagraph{3}{我盯着那句话看了很久。}
+\StoryParagraph{3}{印花税。}
+\StoryParagraph{3}{它一直在那里。}
+\StoryParagraph{3}{从头到尾没有人提它。}
+\StoryParagraph{3}{但它一直在那里。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{8}}
+\StoryParagraph{3}{经济法看起来最善良。}
+\StoryParagraph{3}{不用算。}
+\StoryParagraph{3}{我甚至有一点喜欢它。}
+\StoryParagraph{3}{CPA 大概发现了。}
+\StoryParagraph{3}{于是它给了我：}
+\StoryParagraph{3}{善意取得。}
+\StoryParagraph{3}{无权处分。}
+\StoryParagraph{3}{表见代理。}
+\StoryParagraph{3}{保证。}
+\StoryParagraph{3}{抵押。}
+\StoryParagraph{3}{质押。}
+\StoryParagraph{3}{票据抗辩。}
+\StoryParagraph{3}{破产撤销权。}
+\StoryParagraph{3}{股东代表诉讼。}
+\StoryParagraph{3}{信息披露。}
+\StoryParagraph{3}{短线交易。}
+\StoryParagraph{3}{反垄断。}
+\StoryParagraph{3}{国有资产。}
+\StoryParagraph{3}{涉外经济法律制度。}
+\StoryParagraph{3}{它最后问：}
+\StoryParagraph{3}{“该合同是否有效？”}
+\StoryParagraph{3}{我看完整个案例。}
+\StoryParagraph{3}{甲骗了乙。}
+\StoryParagraph{3}{乙瞒了丙。}
+\StoryParagraph{3}{丙又把东西卖给丁。}
+\StoryParagraph{3}{丁不知道。}
+\StoryParagraph{3}{戊知道一点。}
+\StoryParagraph{3}{己什么都不知道。}
+\StoryParagraph{3}{我唯一确定的是：}
+\StoryParagraph{3}{我无效。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{9}}
+\StoryParagraph{3}{战略是最后来的。}
+\StoryParagraph{3}{大家都告诉我：}
+\StoryParagraph{3}{战略简单。}
+\StoryParagraph{3}{战略背背就行。}
+\StoryParagraph{3}{我已经不会再相信这种话了。}
+\StoryParagraph{3}{但我还是开始背：}
+\StoryParagraph{3}{总体战略。}
+\StoryParagraph{3}{业务单位战略。}
+\StoryParagraph{3}{职能战略。}
+\StoryParagraph{3}{发展战略。}
+\StoryParagraph{3}{稳定战略。}
+\StoryParagraph{3}{收缩战略。}
+\StoryParagraph{3}{一体化战略。}
+\StoryParagraph{3}{密集型战略。}
+\StoryParagraph{3}{多元化战略。}
+\StoryParagraph{3}{我背得很熟。}
+\StoryParagraph{3}{然后 CPA 给了我一家公司。}
+\StoryParagraph{3}{它做咖啡。}
+\StoryParagraph{3}{后来做奶茶。}
+\StoryParagraph{3}{又做零食。}
+\StoryParagraph{3}{还投资物流。}
+\StoryParagraph{3}{然后出海。}
+\StoryParagraph{3}{最后自己建设原料基地。}
+\StoryParagraph{3}{CPA 问：}
+\StoryParagraph{3}{“上述材料体现了哪些战略？”}
+\StoryParagraph{3}{我觉得它体现了一种战略。}
+\StoryParagraph{3}{折磨我的战略。}
+\StoryParagraph{3}{答案八分。}
+\StoryParagraph{3}{我得零分。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{10}}
+\StoryParagraph{3}{认识 CPA 三个月的时候，我做了一张 Excel。}
+\StoryParagraph{3}{六科。}
+\StoryParagraph{3}{章节。}
+\StoryParagraph{3}{知识点。}
+\StoryParagraph{3}{听课进度。}
+\StoryParagraph{3}{刷题数量。}
+\StoryParagraph{3}{正确率。}
+\StoryParagraph{3}{错题次数。}
+\StoryParagraph{3}{我还做了条件格式。}
+\StoryParagraph{3}{绿色代表掌握。}
+\StoryParagraph{3}{黄色代表模糊。}
+\StoryParagraph{3}{红色代表不会。}
+\StoryParagraph{3}{做完以后，整个表是红的。}
+\StoryParagraph{3}{只有表头是绿色。}
+\StoryParagraph{3}{我看了很久。}
+\StoryParagraph{3}{觉得很好看。}
+\StoryParagraph{3}{至少表头掌握了。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{11}}
+\StoryParagraph{3}{后来我开始做计划。}
+\StoryParagraph{3}{今天学习八小时。}
+\StoryParagraph{3}{明天学习十小时。}
+\StoryParagraph{3}{周末十二小时。}
+\StoryParagraph{3}{CPA 很喜欢我做计划。}
+\StoryParagraph{3}{因为它知道我做不完。}
+\StoryParagraph{3}{早上九点开始学习。}
+\StoryParagraph{3}{九点十分整理桌面。}
+\StoryParagraph{3}{九点二十打开讲义。}
+\StoryParagraph{3}{九点二十五觉得应该先复习昨天的内容。}
+\StoryParagraph{3}{十点发现昨天的内容已经忘了。}
+\StoryParagraph{3}{十一点重新听课。}
+\StoryParagraph{3}{十二点吃饭。}
+\StoryParagraph{3}{下午两点终于开始今天的内容。}
+\StoryParagraph{3}{晚上十一点，我完成了今天计划的 37\%。}
+\StoryParagraph{3}{我把剩下的内容移动到明天。}
+\StoryParagraph{3}{CPA 没有说话。}
+\StoryParagraph{3}{第二天的计划变成了 163\%。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{12}}
+\StoryParagraph{3}{有一次我问别人：}
+\StoryParagraph{3}{CPA 到底难不难？}
+\StoryParagraph{3}{有人说不难。}
+\StoryParagraph{3}{他说自己一年过六科。}
+\StoryParagraph{3}{我点进他的主页。}
+\StoryParagraph{3}{985 本硕。}
+\StoryParagraph{3}{四大。}
+\StoryParagraph{3}{每天学习十小时。}
+\StoryParagraph{3}{脱产。}
+\StoryParagraph{3}{我把手机放下了。}
+\StoryParagraph{3}{后来又有人说：}
+\StoryParagraph{3}{CPA 主要靠坚持。}
+\StoryParagraph{3}{我点进他的主页。}
+\StoryParagraph{3}{三年过六科。}
+\StoryParagraph{3}{我稍微舒服一点。}
+\StoryParagraph{3}{直到我看到他说：}
+\StoryParagraph{3}{“每天稳定学习六小时即可。”}
+\StoryParagraph{3}{即可。}
+\StoryParagraph{3}{我第一次觉得汉语里最残忍的两个字，是“即可”。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{13}}
+\StoryParagraph{3}{临近考试的时候，CPA 对我突然温柔起来。}
+\StoryParagraph{3}{题目开始重复。}
+\StoryParagraph{3}{知识点开始熟悉。}
+\StoryParagraph{3}{模拟卷正确率开始上升。}
+\StoryParagraph{3}{我觉得我们之间终于建立了某种默契。}
+\StoryParagraph{3}{我甚至开始想：}
+\StoryParagraph{3}{也许今年真的可以。}
+\StoryParagraph{3}{考试那天，我坐进考场。}
+\StoryParagraph{3}{电脑亮起来。}
+\StoryParagraph{3}{第一道题。}
+\StoryParagraph{3}{我不会。}
+\StoryParagraph{3}{第二道题。}
+\StoryParagraph{3}{好像见过。}
+\StoryParagraph{3}{第三道题。}
+\StoryParagraph{3}{完全没见过。}
+\StoryParagraph{3}{我往后翻。}
+\StoryParagraph{3}{CPA 把这一年所有我觉得“不重要”的东西，全拿出来了。}
+\StoryParagraph{3}{我突然明白：}
+\StoryParagraph{3}{它一直记得。}
+\StoryParagraph{3}{我划掉的每一个知识点。}
+\StoryParagraph{3}{我跳过的每一道题。}
+\StoryParagraph{3}{我觉得“应该不会考”的每一页。}
+\StoryParagraph{3}{它一个都没忘。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{14}}
+\StoryParagraph{3}{考试最后十分钟。}
+\StoryParagraph{3}{财管还有一道大题。}
+\StoryParagraph{3}{税法还有两个小问。}
+\StoryParagraph{3}{会计借贷已经开始失去方向。}
+\StoryParagraph{3}{屏幕右上角的数字一直在变小。}
+\StoryParagraph{3}{09:58。}
+\StoryParagraph{3}{08:41。}
+\StoryParagraph{3}{06:22。}
+\StoryParagraph{3}{我开始打一些我自己也看不懂的东西。}
+\StoryParagraph{3}{只要公式写上去。}
+\StoryParagraph{3}{也许有步骤分。}
+\StoryParagraph{3}{老师以前说过。}
+\StoryParagraph{3}{“不要空着。”}
+\StoryParagraph{3}{于是我没有空着。}
+\StoryParagraph{3}{我把尊严空着了。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{15}}
+\StoryParagraph{3}{交卷的时候，电脑弹出一个窗口：}
+\StoryParagraph{3}{“是否确认交卷？”}
+\StoryParagraph{3}{下面两个按钮。}
+\StoryParagraph{3}{确认。}
+\StoryParagraph{3}{取消。}
+\StoryParagraph{3}{这是 CPA 对我最温柔的一次。}
+\StoryParagraph{3}{它竟然问我是否确认。}
+\StoryParagraph{3}{这一年它从来没有问过。}
+\StoryParagraph{3}{要不要学合并报表？}
+\StoryParagraph{3}{没有。}
+\StoryParagraph{3}{要不要背税收优惠？}
+\StoryParagraph{3}{没有。}
+\StoryParagraph{3}{要不要记破产法所有期限？}
+\StoryParagraph{3}{没有。}
+\StoryParagraph{3}{现在它问我：}
+\StoryParagraph{3}{你确认吗？}
+\StoryParagraph{3}{我当然不确认。}
+\StoryParagraph{3}{但考试时间到了。}
+\StoryParagraph{3}{系统帮我确认了。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{16}}
+\StoryParagraph{3}{考完以后，所有人开始对答案。}
+\StoryParagraph{3}{我一开始不想看。}
+\StoryParagraph{3}{后来还是看了。}
+\StoryParagraph{3}{第一题。}
+\StoryParagraph{3}{错。}
+\StoryParagraph{3}{第二题。}
+\StoryParagraph{3}{错。}
+\StoryParagraph{3}{第三题。}
+\StoryParagraph{3}{我选 B。}
+\StoryParagraph{3}{机构答案是 C。}
+\StoryParagraph{3}{评论区有人说 B 也可以。}
+\StoryParagraph{3}{我突然重新燃起希望。}
+\StoryParagraph{3}{过了十分钟，老师发了一条消息：}
+\StoryParagraph{3}{“经确认，本题答案为 C。”}
+\StoryParagraph{3}{我把手机扣在桌上。}
+\StoryParagraph{3}{那天剩下的时间，我没有再看答案。}
+\StoryParagraph{3}{晚上十二点。}
+\StoryParagraph{3}{我又打开了。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{17}}
+\StoryParagraph{3}{等成绩的那段时间很奇怪。}
+\StoryParagraph{3}{CPA 什么都不要求我了。}
+\StoryParagraph{3}{不用听课。}
+\StoryParagraph{3}{不用刷题。}
+\StoryParagraph{3}{不用背书。}
+\StoryParagraph{3}{不用算题。}
+\StoryParagraph{3}{我突然有了晚上。}
+\StoryParagraph{3}{有了周末。}
+\StoryParagraph{3}{有了完整的睡眠。}
+\StoryParagraph{3}{我甚至可以看电影。}
+\StoryParagraph{3}{但我不知道看什么。}
+\StoryParagraph{3}{以前每次休息，我都知道自己是在逃避 CPA。}
+\StoryParagraph{3}{现在 CPA 不在。}
+\StoryParagraph{3}{我反而不知道自己在逃避什么。}
+\StoryParagraph{3}{书还在桌上。}
+\StoryParagraph{3}{六本。}
+\StoryParagraph{3}{没有一本打开。}
+\StoryParagraph{3}{房间很安静。}
+\StoryParagraph{3}{太安静了。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{18}}
+\StoryParagraph{3}{出成绩那天，我很早就醒了。}
+\StoryParagraph{3}{官网进不去。}
+\StoryParagraph{3}{刷新。}
+\StoryParagraph{3}{进不去。}
+\StoryParagraph{3}{刷新。}
+\StoryParagraph{3}{验证码错误。}
+\StoryParagraph{3}{重新输。}
+\StoryParagraph{3}{页面崩溃。}
+\StoryParagraph{3}{重新登录。}
+\StoryParagraph{3}{我突然觉得很好笑。}
+\StoryParagraph{3}{一年过去了。}
+\StoryParagraph{3}{到了最后，它还是不肯痛快。}
+\StoryParagraph{3}{后来页面终于出来。}
+\StoryParagraph{3}{我一科一科往下看。}
+\StoryParagraph{3}{五十几。}
+\StoryParagraph{3}{六十几。}
+\StoryParagraph{3}{五十几。}
+\StoryParagraph{3}{我没往下滑。}
+\StoryParagraph{3}{先把手机放下。}
+\StoryParagraph{3}{过了一会儿又拿起来。}
+\StoryParagraph{3}{我告诉自己：}
+\StoryParagraph{3}{五十九和零没有区别。}
+\StoryParagraph{3}{但我盯着那个数字看了很久。}
+\StoryParagraph{3}{59。}
+\StoryParagraph{3}{差一分。}
+\StoryParagraph{3}{一分很小。}
+\StoryParagraph{3}{一道选择题。}
+\StoryParagraph{3}{一个判断。}
+\StoryParagraph{3}{一个我当时觉得“不至于考”的知识点。}
+\StoryParagraph{3}{我想起考试最后几分钟，我改过一道题。}
+\StoryParagraph{3}{原来选的是对的。}
+\StoryParagraph{3}{后来改错了。}
+\StoryParagraph{3}{我后来无数次想过那道题。}
+\StoryParagraph{3}{如果那天我没有改。}
+\StoryParagraph{3}{我会过吗？}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{19}}
+\StoryParagraph{3}{第二年教材出来了。}
+\StoryParagraph{3}{封面换了。}
+\StoryParagraph{3}{内容也变了。}
+\StoryParagraph{3}{税法新增政策。}
+\StoryParagraph{3}{经济法调整规定。}
+\StoryParagraph{3}{会计删除了一点，又增加了一点。}
+\StoryParagraph{3}{审计说“无实质变化”。}
+\StoryParagraph{3}{我尤其害怕“无实质变化”。}
+\StoryParagraph{3}{这意味着字变了。}
+\StoryParagraph{3}{但你还是得重新看。}
+\StoryParagraph{3}{我把新教材放到旧教材旁边。}
+\StoryParagraph{3}{一模一样的六科。}
+\StoryParagraph{3}{又不是原来的六科。}
+\StoryParagraph{3}{CPA 很擅长这个。}
+\StoryParagraph{3}{它每年回来。}
+\StoryParagraph{3}{长得差不多。}
+\StoryParagraph{3}{但它会告诉你：}
+\StoryParagraph{3}{去年那些，不完全算数。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{20}}
+\StoryParagraph{3}{我有时候会翻以前的错题。}
+\StoryParagraph{3}{第一年写的字很认真。}
+\StoryParagraph{3}{红笔。}
+\StoryParagraph{3}{蓝笔。}
+\StoryParagraph{3}{荧光笔。}
+\StoryParagraph{3}{旁边写：}
+\StoryParagraph{3}{“重点！”}
+\StoryParagraph{3}{“必考！”}
+\StoryParagraph{3}{“再看！”}
+\StoryParagraph{3}{“易错！”}
+\StoryParagraph{3}{第二年开始字越来越潦草。}
+\StoryParagraph{3}{到了后来，只剩下一种批注：}
+\StoryParagraph{3}{“操。”}
+\StoryParagraph{3}{这个字出现得越来越频繁。}
+\StoryParagraph{3}{有时候一道题旁边有三个。}
+\StoryParagraph{3}{我已经想不起来当时具体为什么生气。}
+\StoryParagraph{3}{但我相信当时的自己。}
+\NarrativeBreak
+\NarrativeBreak
+\StoryParagraph{10}{\textbf{21}}
+\StoryParagraph{3}{有一天我把所有 CPA 资料整理了一遍。}
+\StoryParagraph{3}{教材。}
+\StoryParagraph{3}{轻一。}
+\StoryParagraph{3}{讲义。}
+\StoryParagraph{3}{错题本。}
+\StoryParagraph{3}{打印的法条。}
+\StoryParagraph{3}{模拟卷。}
+\StoryParagraph{3}{准考证。}
+\StoryParagraph{3}{草稿纸。}
+\StoryParagraph{3}{Excel。}
+\StoryParagraph{3}{Anki。}
+\StoryParagraph{3}{网课截图。}
+\StoryParagraph{3}{还有一张纸。}
+\StoryParagraph{3}{是最开始准备 CPA 时写的。}
+\StoryParagraph{3}{上面只有一句话：}
+\StoryParagraph{3}{“三年拿下 CPA。”}
+\StoryParagraph{3}{我算了一下。}
+\StoryParagraph{3}{已经第四年了。}
+\StoryParagraph{3}{我把那张纸折起来。}
+\StoryParagraph{3}{没有扔。}
+\StoryParagraph{3}{不知道为什么。}
+\NarrativeBreak
+\StoryParagraph{3}{后来我一直在想一个问题。}
+\StoryParagraph{3}{如果一开始知道 CPA 是这样的，}
+\StoryParagraph{3}{我还会考吗？}
+\StoryParagraph{3}{我想了很久。}
+\StoryParagraph{3}{然后我打开电脑。}
+\StoryParagraph{3}{报名系统里，}
+\StoryParagraph{3}{下一年度的六个科目安静地躺在那里。}
+\StoryParagraph{3}{会计。}
+\StoryParagraph{3}{审计。}
+\StoryParagraph{3}{财管。}
+\StoryParagraph{3}{税法。}
+\StoryParagraph{3}{经济法。}
+\StoryParagraph{3}{战略。}
+\StoryParagraph{3}{一个都没少。}
+\StoryParagraph{3}{我看着它们。}
+\StoryParagraph{3}{它们也看着我。}
+\StoryParagraph{3}{我们彼此都知道，}
+\StoryParagraph{3}{明年还会见面。}
+\StoryParagraph{3}{我点了报名。}
+\StoryParagraph{3}{页面提示：}
+\StoryParagraph{3}{\textbf{缴费成功。}}
+\StoryParagraph{3}{窗外已经天亮了。}
+\StoryParagraph{3}{这一年，}
+\StoryParagraph{3}{又什么都没有发生。}
+\end{document}
