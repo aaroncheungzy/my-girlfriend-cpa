@@ -1,6 +1,6 @@
 # 我的女友 CPA
 
-一篇把中国注册会计师考试拟人化的怨恨文，以 5 × 8 英寸小册子形式排版。
+一篇模仿[HEJustinSun/my-girlfriend-jingtian-latex](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex) 的文章，以 5 × 8 英寸小册子形式排版。
 
 ## 内容
 
