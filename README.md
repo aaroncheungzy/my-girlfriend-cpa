@@ -19,4 +19,3 @@ xelatex -interaction=nonstopmode -halt-on-error -output-directory=build main.tex
 ```
 
 生成文件为 `build/main.pdf`。
-
